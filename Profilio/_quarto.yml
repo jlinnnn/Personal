@@ -6,14 +6,17 @@ website:
   navbar:
     left:
       - href: index.qmd
-        text: Home
-      - about.qmd
+      - href: about.qmd
+        text: "About"
+      - text: "Georgetown Projects"
+        menu: 
+          - text: DSAN-5000
+            href: Projects/DSAN-5000/project-jlinnnn/_site/index.html
+          - text: DSAN-5100
+            href: Projects/DSAN-5100/5100_project/website/_site/index.html
 
 format:
   html:
     theme: cosmo
     css: styles.css
     toc: true
-
-
-
